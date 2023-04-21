@@ -19,9 +19,6 @@ import java.util.List;
 
 import static ru.alishev.springcourse.FirstRestApp.util.ErrorsUtil.returnErrorsToClient;
 
-/**
- * @author Neil Alishev
- */
 @RestController // @Controller + @ResponseBody над каждым методом
 @RequestMapping("/sensors")
 public class SensorController {

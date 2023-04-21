@@ -9,9 +9,6 @@ import ru.alishev.springcourse.FirstRestApp.repositories.SensorRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author Neil Alishev
- */
 @Service
 @Transactional(readOnly = true)
 public class SensorService {
